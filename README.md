@@ -55,6 +55,9 @@ We implement a quantum walk algorithm to simulate the propagation of photons in 
 ### Optimization with Machine Learning
 To improve the efficiency and accuracy of our simulations, we utilize a deep neural network that optimizes the system parameters. This network is trained using the results of the simulations to continuously adjust and improve the performance of QuBE.
 
+![Screenshot at 2024-07-03 22-02-12](https://github.com/Agnuxo1/QuBE/assets/166046035/28bc38c5-4a7d-4152-8b33-8a77097d61db)
+
+
 ## Applications of QuBE
 
 The QuBE system represents a significant advancement in the field of quantum and optical computing, with potential applications spanning a wide range of fields, both present and future. Here are some of the most relevant applications:
@@ -93,6 +96,10 @@ The QuBE system represents a significant advancement in the field of quantum and
 
 5. **Creating New Technologies:**
     * **Neuromorphic Computing:** Integrating quantum and optical principles in the creation of advanced neuromorphic processors that mimic the functioning of the human brain for processing and learning tasks.
+  
+
+      ![Screenshot at 2024-07-03 21-55-54](https://github.com/Agnuxo1/QuBE/assets/166046035/5471037f-1d2b-484b-9238-056dec7ed5fa)
+
 
 
 QuBE_Light: Quantum Maze Solver
@@ -104,6 +111,10 @@ Quantum computing has its roots in the early 1980s when physicists Paul Benioff 
 1996: Lov Grover presents a quantum algorithm for searching unsorted databases
 2019: Google claims "quantum supremacy" with its 53-qubit Sycamore processor
 2021: IBM unveils its 127-qubit Eagle processor
+
+![quantum-computing-timeline](https://github.com/Agnuxo1/QuBE/assets/166046035/33ffb24e-7e92-4da3-81f1-2962b47835dc)
+
+
 2. Current State of the Art
 Modern quantum computers are still in their infancy, with the most advanced systems having around 100-200 qubits. Current research focuses on:
 
@@ -146,6 +157,11 @@ Where Ĥ is our maze Hamiltonian operator.
 Here's a 3D representation of the quantum maze state evolution:
 
 The red dot represents the quantum state of the system, with its size oscillation indicating the superposition of states and its motion showing the evolution through the maze.
+
+
+![advanced-qubit-comparison-chart](https://github.com/Agnuxo1/QuBE/assets/166046035/9958570e-2d5e-4f61-ac43-9b6e87687fe1)
+
+
 
 4. Comparison with Current Techniques
 Compared to classical maze-solving algorithms, QuBE_Light offers several advantages:
@@ -243,6 +259,9 @@ Limited Qubit Count: Current quantum hardware has limited qubit counts, restrict
 Readout Complexity: Extracting useful information from the quantum state after QFT can be challenging and resource-intensive.
 Future research will focus on developing error correction techniques, exploring hybrid quantum-classical approaches, and designing more efficient quantum readout methods to address these challenges.
 
+![Screenshot at 2024-07-03 21-59-32](https://github.com/Agnuxo1/QuBE/assets/166046035/7d28fef3-28c9-4e66-a463-bcd17084bc6e)
+
+
 3. Grover's Algorithm for Path Finding
 3.1 Theoretical Foundation
 QuBE_Light employs a modified version of Grover's algorithm to search for optimal paths through the quantum-encoded maze. Grover's algorithm provides a quadratic speedup over classical search algorithms, making it particularly effective for large, complex mazes.
@@ -297,6 +316,9 @@ Quantum States
 Amplitude
 Iteration: 1
 In this visualization, each bar represents a quantum state corresponding to a potential path through the maze. As Grover's algorithm iterates, the amplitude of the target state (optimal path) increases, making it more likely to be measured upon observation.
+
+![quantum-maze-state-evolution](https://github.com/Agnuxo1/QuBE/assets/166046035/a9887de2-3d9b-43de-9296-7fec5a042561)
+
 
 3.4 Advantages over Classical Path Finding
 QuBE_Light's quantum path finding approach offers several advantages over classical algorithms:
@@ -371,6 +393,9 @@ The following visualization demonstrates how light propagates through the quantu
 
 This visualization illustrates how light (representing the quantum state) propagates through the maze, demonstrating effects such as diffraction, interference, and potential quantum tunneling through maze barriers.
 
+![q-learning-maze-solving](https://github.com/Agnuxo1/QuBE/assets/166046035/409cfe59-b0b9-4e29-ad49-57344de59663)
+
+
 4.4 Advantages of Light Propagation Modeling
 Incorporating light propagation simulation into QuBE_Light offers several unique advantages:
 
@@ -389,6 +414,7 @@ Future research will focus on:
 Developing more efficient numerical methods for light propagation simulation.
 Exploring ways to map continuous light distributions to discrete optimal paths more effectively.
 Investigating potential physical implementations using photonic quantum computing platforms.
+
 Chapter 5: Quantum Interference Modeling in QuBE_Light
 5.1 Introduction
 Quantum interference is a fundamental phenomenon in quantum mechanics that plays a crucial role in the behavior of quantum systems. In the context of QuBE_Light, our quantum maze solver, we leverage this phenomenon to enhance the efficiency of path finding and optimize the exploration of solution spaces.
@@ -441,11 +467,16 @@ Exploitation of quantum tunneling: In conjunction with quantum tunneling effects
 5.6 Experimental Results
 Our experiments with QuBE_Light have shown significant improvements in maze-solving efficiency compared to classical algorithms. For complex mazes with multiple viable paths, QuBE_Light consistently finds solutions up to 30% faster than state-of-the-art classical algorithms.
 
+![quantum-sensor-dynamics](https://github.com/Agnuxo1/QuBE/assets/166046035/1bf0b67d-2c8e-4a8a-8132-c6a8b88e9e47)
+
+
 References
 Feynman, R. P. (1982). Simulating physics with computers. International Journal of Theoretical Physics, 21(6), 467-488.
 Deutsch, D. (1985). Quantum theory, the Church-Turing principle and the universal quantum computer. Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences, 400(1818), 97-117.
 Grover, L. K. (1996). A fast quantum mechanical algorithm for database search. Proceedings of the twenty-eighth annual ACM symposium on Theory of computing, 212-219.
 Chapter 6: Q-Learning for Adaptive Path Finding in QuBE_Light
+
+
 6.1 Introduction
 QuBE_Light incorporates Q-Learning, a model-free reinforcement learning technique, to enhance its maze-solving capabilities. This adaptive approach allows the system to learn from experience and improve its path-finding strategies over time, complementing the quantum-inspired algorithms at the core of QuBE_Light.
 
@@ -506,21 +537,11 @@ Implementing quantum-inspired noise reduction techniques to enhance learning sta
 Exploring the integration of quantum annealing for optimizing the Q-function
 Developing quantum-classical hybrid approaches for scalable learning in complex environments
 QuBE_Light: Quantum Maze Solver
-1. A Brief History of Quantum Computing
-Quantum computing has its roots in the early 1980s when physicists Paul Benioff and Richard Feynman independently proposed the idea of using quantum mechanical principles for computation. The field has since evolved dramatically:
 
-1985: David Deutsch describes the first universal quantum computer
-1994: Peter Shor develops a quantum algorithm for factoring large numbers
-1996: Lov Grover presents a quantum algorithm for searching unsorted databases
-2019: Google claims "quantum supremacy" with its 53-qubit Sycamore processor
-2021: IBM unveils its 127-qubit Eagle processor
-2. Current State of the Art
-Modern quantum computers are still in their infancy, with the most advanced systems having around 100-200 qubits. Current research focuses on:
+![qft-feature-encoding](https://github.com/Agnuxo1/QuBE/assets/166046035/76bff868-89f8-489c-936b-4a5abb42d239)
 
-Increasing qubit coherence time
-Reducing error rates and implementing error correction
-Developing hybrid quantum-classical algorithms
-Exploring quantum applications in optimization, machine learning, and cryptography
+
+
 7. CUDA-Accelerated Ray Tracing
 7.1 Theoretical Foundation
 QuBE_Light uses CUDA for parallel ray tracing, leveraging the rendering equation to simulate light propagation through the maze. The rendering equation is given by:
@@ -585,7 +606,11 @@ def propagate_light_kernel(qcube_intensity, qubit_positions, reflectances, max_d
                     ray2 = create_ray(qubit_positions[n], qubit_positions[idx] - qubit_positions[n])
                     interference = quantum_interference(ray1, ray2)
                     qcube_intensity[idx] += interference * reflectances[n]
+
+                    
         
+![cuda-ray-tracing-performance](https://github.com/Agnuxo1/QuBE/assets/166046035/84f3e59b-7863-4dae-8450-0f3896f61839)
+
 
     
 7.3 Visualization
@@ -602,6 +627,9 @@ The quantum particle's superposition, represented by its fuzzy appearance
 The particle's ability to explore multiple paths simultaneously
 Quantum tunneling effects, as the particle seems to pass through walls probabilistically
 The animation illustrates how QuBE_Light's quantum approach allows for the exploration of multiple maze paths in parallel, potentially leading to faster solution discovery compared to classical algorithms.
+
+![qft-feature-encoding (1)](https://github.com/Agnuxo1/QuBE/assets/166046035/37f406b0-e4fc-4c2d-9ff1-e91ad8fbcf68)
+
 
 8. Quantum Sensor Dynamics
 8.1 Theoretical Foundation
@@ -674,6 +702,9 @@ Enhanced imaging techniques in medical diagnostics
 Improved navigation and timing systems
 Continued research in this area is expected to lead to significant advancements in both the theoretical understanding and practical implementation of quantum sensors.
 
+![quantum-computer-qubits-comparison](https://github.com/Agnuxo1/QuBE/assets/166046035/9accecb5-f2c6-4e48-8974-30afdf236e1c)
+
+
 9. Adaptive Maze Generation
 9.1 Theoretical Foundation
 QuBE_Light employs quantum random walks to generate adaptive mazes. Quantum random walks differ from classical random walks by allowing the walker to exist in a superposition of positions, leading to faster exploration and unique pathfinding characteristics. The unitary operator \( U \) for a discrete-time quantum walk is given by:
@@ -732,6 +763,9 @@ maze = quantum_random_walk(10, 100)
 nx.draw(maze, with_labels=True)
         
 
+![advanced-qubit-comparison-chart](https://github.com/Agnuxo1/QuBE/assets/166046035/61915f5d-258c-4441-8034-a9b0e8dceb3c)
+
+
     
 9.3 Visualization
 Below is a visualization of the maze generated by the quantum random walk:
@@ -746,6 +780,9 @@ Unique pathfinding characteristics that can lead to more complex and interesting
 Ability to dynamically adapt the maze structure based on the solving agent's behavior
 Classical maze generation algorithms, such as depth-first search or Prim's algorithm, are deterministic and lack the flexibility and adaptability provided by quantum random walks.
 
+![q-learning-process-graph](https://github.com/Agnuxo1/QuBE/assets/166046035/56516271-868d-47e1-a8af-2a00e8cbfc6f)
+
+
 9.5 Future Directions
 The field of quantum maze generation is still in its early stages, with many exciting possibilities for future research, including:
 
@@ -753,6 +790,9 @@ Exploring different types of quantum walks and their effects on maze generation
 Integrating quantum maze generation with other quantum algorithms for more complex problem-solving
 Investigating real-world applications of quantum maze generation in fields such as logistics and network optimization
 Continued research in this area is expected to lead to new insights and advancements in both quantum computing and maze generation techniques.
+
+![performance-comparison-detailed](https://github.com/Agnuxo1/QuBE/assets/166046035/9d198eef-3163-40d6-870c-51feb9acfbad)
+
 
 10. Performance Optimization
 10.1 Theoretical Foundation
@@ -825,6 +865,9 @@ optimal_state = simulated_annealing(energy_function, initial_state, temperature,
 print(optimal_state)
         
 
+![maze-solving-performance-comparison](https://github.com/Agnuxo1/QuBE/assets/166046035/830959dc-35ba-478a-9e7c-322cead8c088)
+
+
     
 10.3 Visualization
 Below is a visualization of the annealing process, demonstrating the convergence towards the optimal state:
@@ -850,3 +893,6 @@ Continued research in this area is expected to lead to significant advancements 
 The interdisciplinary approach taken in this project highlights the power of combining insights from various fields, including quantum physics, computer science, and optimization theory. The use of quantum principles, such as superposition and interference, has allowed QuBE_Light to achieve remarkable efficiency and effectiveness in maze solving, showcasing the promise of quantum-inspired algorithms for a wide range of applications.
 
 Future work will focus on further refining and optimizing the algorithm, exploring new applications, and integrating quantum-inspired methods into practical systems. The continued evolution of quantum computing and optimization techniques holds the potential to revolutionize numerous industries and open up new avenues for scientific discovery and technological innovation.
+
+![Screenshot at 2024-07-03 22-02-12](https://github.com/Agnuxo1/QuBE/assets/166046035/1e97c2c6-0534-4a8a-81c1-111ebcc2d44a)
+
